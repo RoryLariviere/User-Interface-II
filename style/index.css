@@ -1,1 +1,46 @@
 /* Add CSS styling here */
+
+
+/* reset */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+
+/* general styling */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 1.8rem;
+    color: #4f4f4f;
+}
+
+section {
+    padding: 4% 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+
+/* nav styling */
