@@ -135,9 +135,12 @@
         justify-content: space-between;
     }
     
+    .top-nav {
+        background-color: black;
+    }
+    
     nav h2 {
         width: 20vw;
-        /* height: 5vh; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -161,6 +164,7 @@
         width: 20vw;
         height: 6vh;
         font-size: 2.2rem;
+        border: 1px solid white;
     }
     /* banner section */
     
@@ -193,6 +197,7 @@
         justify-content: space-evenly;
         height: 30vh;
         width: 35%;
+        color: red;
     }
     
     .name-link h1 {
@@ -211,6 +216,7 @@
         height: 6vh;
         border: 2px solid red;
         border-radius: 10%;
+        color: red;
     }
     /* gallery section */
     
@@ -231,7 +237,6 @@
         justify-content: space-evenly;
         width: 30%;
         height: 50vh;
-        /* padding: 2% 0; */
         margin: 2% 0;
     }
     
@@ -299,8 +304,6 @@
         font-size: 2.5rem;
         width: 35%;
         height: 15vh;
-        /* color: black;
-    background: beige; */
     }
     
     .fa-github {
